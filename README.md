@@ -1,6 +1,6 @@
 # Projeto 05 - Design System
 
-> Versão de publicação. Pacote: `jvmdo-ignite-ui`
+> Versão de publicação. Pacotes publicados sob a organização `@jvmdo-ignite-ui` no NPM
 
 O quinto módulo da trilha atualizada de ReactJS do *bootcamp* Ignite da [Rocketseat](https://www.rocketseat.com.br/) faz uma introdução a Design Systems, ensinando como implementar e documentar um UI Kit baseado no sistema de design Andrômeda. React.js, Stitches, Storybook, turborepo e changesets são algumas das tecnologias utilizadas. O projeto é publicado no NPM e GitHub Pages.
 
@@ -37,13 +37,15 @@ Sem o uso de um `monorepo`, a importação de recursos de um projeto em outro se
 
 ### Screenshot
 
-![Storybook Preview](./screenshots/storybook.png)
+![Storybook preview](./screenshots/storybook.png)
+
+![Published packages](./screenshots/packages.png)
 
 ### Links
 
-- [Remote repository]()
+- [Remote repository](https://github.com/jvmdo/ignite-design-system)
 
-- [Live preview]()
+- [Storybook live preview](https://jvmdo.github.io/ignite-design-system/)
 
 ## My process
 
@@ -61,6 +63,18 @@ Sem o uso de um `monorepo`, a importação de recursos de um projeto em outro se
 - NPM
 
 ### What I learned
+
+#### How to GitHub CI/CD process to publish packages on NPM
+
+1. Create a new NPM organization
+2. Set the `name` in packages.json to match the organization one
+3. Create a new NPM automation token
+4. Set the NPM token in the repository's secrets
+5. Define the [release workflow](.github/workflows/release.yml)
+6. Define the `changeset` and `version-packages` NPM scripts
+7. After changes made, run `changeset`
+8. Run `version-packages`
+9. Commit and push
 
 #### [Storybook, my short summary.](./Storybook.md)
 
