@@ -1,6 +1,6 @@
 # Projeto 05 - Design System
 
-> *O meu projeto publicado está [nesse outro repositório]().*
+> Versão de publicação. Pacote: `jvmdo-ignite-ui`
 
 O quinto módulo da trilha atualizada de ReactJS do *bootcamp* Ignite da [Rocketseat](https://www.rocketseat.com.br/) faz uma introdução a Design Systems, ensinando como implementar e documentar um UI Kit baseado no sistema de design Andrômeda. React.js, Stitches, Storybook, turborepo e changesets são algumas das tecnologias utilizadas. O projeto é publicado no NPM e GitHub Pages.
 
