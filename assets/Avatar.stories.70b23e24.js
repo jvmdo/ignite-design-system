@@ -1,0 +1,2 @@
+import{A as t}from"./index.a3430668.js";import"./index.864adc6e.js";import"./iframe.4b8706fe.js";import"./index.dd52b599.js";import"./jsx-runtime.860ad7ce.js";const i={title:"Data display/Avatar",component:t,args:{src:"https://github.com/placeholder.png",alt:"Avatar Placeholder"},argTypes:{src:{control:"text"}}},e={},l={args:{src:void 0}},p=["Primary","WithFallback"];export{e as Primary,l as WithFallback,p as __namedExportsOrder,i as default};
+//# sourceMappingURL=Avatar.stories.70b23e24.js.map
