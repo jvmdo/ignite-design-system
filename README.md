@@ -1,4 +1,4 @@
-# Projeto 05 - Design System
+# Projeto / Desafio 05 - Design System
 
 > Versão de publicação. Pacotes publicados sob a organização `@jvmdo-ignite-ui` no NPM
 
@@ -32,6 +32,7 @@ Sem o uso de um `monorepo`, a importação de recursos de um projeto em outro se
 1. Configurar o `monorepo`
 2. Definir os *tokens* de design
 3. Implementar os componentes em React
+    - ✔ Desafio do módulo: implementar e documentar em stories os componentes Tooltip e Toast
 4. Documentar cada componente em *stories*
 5. Publicar o UI Kit e o Storybook
 
@@ -63,6 +64,8 @@ Sem o uso de um `monorepo`, a importação de recursos de um projeto em outro se
 - NPM
 
 ### What I learned
+
+- Pay attention to where third-party packages are installed. I mistakenly installed Radix UI at the root package.json, which led to the error "Dynamic require of "react" is not supported".
 
 #### How to GitHub CI/CD process to publish packages on NPM
 
